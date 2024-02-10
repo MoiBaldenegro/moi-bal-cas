@@ -1,0 +1,67 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(84,0,17);
+    background: linear-gradient(0deg, rgba(84,0,17,1) 0%, rgba(204,1,49,1) 100%);
+  }
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    width: 100vw;
+    height: 25vh;
+  }
+  header h1{
+    font-size: 150px;
+  }
+  main{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 6px double gold;
+    width: 60vw;
+    height: 60vh;
+    
+  }
+ 
+  .column{
+    width: 32%;
+    height: 99%;
+    background: rgb(204,1,49);
+    background: radial-gradient(circle, rgba(204,1,49,1) 0%, rgba(84,0,17,1) 100%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 95px;
+    box-shadow: 0px 0px 15px 2px #000000d0;
+  }
+ 
+  button {
+    border-radius: 8px;
+    border: 1px solid gold;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background: #aa0229;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    outline: none;
+  }
+  button:active{
+    background-color: rgba(255, 217, 0, 0.26);
+    border: 1px solid transparent;
+  }
+  
+
+
+  
